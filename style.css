@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+a{
+    color:inherit;
+    text-align: center;
+}
+h1,h2{
+    margin: 0;
+    text-align: center;
+}
+a{
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    font-size: 30px;
+}
+.panelka{
+    height:250px;
+    width: 400px;
+    background-size: 300px;
+}
+.cards{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    background-color: red;
+}
+.homepage{
+    height: 50px;
+    background-image:url(https://htmldemo.net/trio/trio/assets/img/extra/home1-about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    width:calc(100%);
+    height:1200px;
+    font-size: 2em;
+}
+.panelka2{
+    position: relative;
+    top: -230px;
+    font-size: 15px;
+    left: 1700px;
+}
